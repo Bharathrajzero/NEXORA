@@ -1,0 +1,48 @@
+{
+  "name": "nexora",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Nexora is a secure personal data hub for saving, organizing, searching, and syncing notes, files, clips, bookmarks, prompts, and devices.",
+  "scripts": {
+    "setup": "node scripts/setup.js",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio",
+    "db:migrate": "tsx lib/db/migrate.ts",
+    "db:init": "tsx lib/db/init.ts",
+    "postinstall": "npm run setup"
+  },
+  "dependencies": {
+    "@libsql/client": "^0.14.0",
+    "bcryptjs": "2.4.3",
+    "clsx": "2.1.1",
+    "drizzle-orm": "^0.36.4",
+    "lucide-react": "0.468.0",
+    "next": "14.2.20",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-qr-scanner": "^1.0.0-alpha.11",
+    "zod": "3.24.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "2.4.6",
+    "@types/node": "22.10.2",
+    "@types/react": "18.3.12",
+    "@types/react-dom": "18.3.1",
+    "autoprefixer": "10.4.20",
+    "drizzle-kit": "^0.28.1",
+    "eslint": "8.57.1",
+    "eslint-config-next": "14.2.20",
+    "postcss": "8.4.49",
+    "tailwindcss": "3.4.16",
+    "tsx": "^4.19.2",
+    "typescript": "5.7.2"
+  },
+  "engines": {
+    "node": ">=20.11.0"
+  }
+}

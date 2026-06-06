@@ -1,0 +1,14 @@
+.env
+.env*.local
+.next
+node_modules
+coverage
+dist
+*.log
+public/uploads
+*.db
+*.db-shm
+*.db-wal
+drizzle/
+.turso
+.vercel

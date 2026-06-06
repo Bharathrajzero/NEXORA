@@ -1,0 +1,13 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": ".next",
+  "devCommand": "npm run dev",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "env": {
+    "DATABASE_URL": "@database_url",
+    "DATABASE_AUTH_TOKEN": "@database_auth_token",
+    "NEXT_PUBLIC_APP_URL": "@next_public_app_url",
+    "AUTH_SECRET": "@auth_secret"
+  }
+}
