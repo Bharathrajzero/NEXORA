@@ -163,9 +163,16 @@ Files are stored in `localStorage` under key `nexora-drops`:
 
 ---
 
+## 👨‍💻 Author
+
+Bharath Raj
+GitHub: Bharathrajzero
+
+---
+
 ## License
 
-MIT
+This project is licensed under the MIT License © 2026 Bharath Raj, AlphaGroup Ltd.
 
 ---
 
