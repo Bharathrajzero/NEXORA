@@ -50,7 +50,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
                   rel="noopener noreferrer"
                   className="font-semibold text-slate-900 hover:text-sky-600 transition"
                 >
-                  Alpha Group Ltd
+                  AlphaGroup
                 </a>
               </p>
               <div className="flex items-center gap-4 text-sm text-slate-600">
