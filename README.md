@@ -5,7 +5,16 @@
 No accounts. No login. Just drop and go.
 
 ---
+## Screenshots
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/a828cbcc-c247-4e52-995e-cfb4f661deb9" />
 
+---
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/b7623fbe-88c5-41c7-b79d-9f935a006aba" />
+
+---
+<img width="1920" height="1079" alt="image" src="https://github.com/user-attachments/assets/6b3cbb5b-29fe-4af5-8ad9-1f25c30784d3" />
+
+---
 ## How It Works
 
 ### 1. Create Drop (Device A - PC/Laptop)
